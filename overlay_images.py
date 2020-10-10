@@ -1,3 +1,4 @@
+#coding=utf-8
 #alternative metod to "sovrapposizione.py"
 #allow to overlay images without losing brightness, if foreground image is transparent
 
@@ -29,6 +30,5 @@ plt.figure(num='Overlay image')
 plt.subplot(121),plt.imshow(img),plt.title('Original')
 plt.xticks([]), plt.yticks([])
 plt.subplot(122),plt.imshow(img3),plt.title('Overlaid image')
-#plt.subplot(122),plt.imshow(img3),plt.title('Overlaid image')
 plt.xticks([]), plt.yticks([])
 plt.show()

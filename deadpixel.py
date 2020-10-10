@@ -1,3 +1,4 @@
+#coding=utf-8
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -15,6 +16,7 @@ h, w, _ = img1.shape
 w=150
 h=90
 img1[h,w]=(0,0,0)
+#img1[h,w]=(255,0,0) #only for review easily
 img1 = Image.fromarray(img1)
 
 

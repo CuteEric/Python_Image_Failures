@@ -1,3 +1,4 @@
+#coding=utf-8
 """
 
 Kromo V0.3
